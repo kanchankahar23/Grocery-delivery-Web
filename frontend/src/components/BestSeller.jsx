@@ -10,6 +10,7 @@ const BestSeller = () => {
                     <div>
                     <p>Vegetables</p>
                     <h1>Potato 500g</h1>
+                    
                     </div>
                 </div>
             </div>
