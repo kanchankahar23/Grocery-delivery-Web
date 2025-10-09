@@ -16,6 +16,7 @@ const Categories = () => {
                             navigate(`/products/${category.path.toLowerCase()}`)
                             scrollTo(0, 0)
                         }}
+                        
                     >
                         <img className='group-hover:scale-108 transition max-w-28' src={category.image}></img>
                         <p className='text-sm font-medium'>{category.text}</p>
