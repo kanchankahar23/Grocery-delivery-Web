@@ -17,7 +17,8 @@ const Navbar = () => {
 
       {/* Logo */}
       <NavLink to="/" onClick={()=>setOpen(false)}>
-        <img className="h-9" src={assets.logo} alt="Logo" />
+       <h1 className='h-10 text-xl text-center pt-3 font-bold text-green-800'><span className='text-3xl '>G</span>REEN Basket</h1>
+     
       </NavLink>
 
       {/* Desktop Menu */}
@@ -45,7 +46,7 @@ const Navbar = () => {
         {/* User Profile / Login */}
         {!user ? (
           <button
-            onClick={() => setShowUserLogin(true)}
+            onClick={() => setShowUserLogin(false)}
             className="cursor-pointer px-8 py-2 bg-primary hover:bg-primary-dull transition text-white rounded-full"
           >
             Login
